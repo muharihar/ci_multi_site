@@ -44,6 +44,31 @@ Apache Configuration Sample:
 </VirtualHost>
 
 
+<VirtualHost *:80>
+
+    ServerAdmin webmaster@omahijo.net
+
+    ServerName scm.omahijo.net
+
+    ServerAlias *.scm.omahijo.net
+
+    DocumentRoot "/var/www/html/scm.github.mhs.web.id/public_html"
+
+    <Directory "/var/www/html/scm.github.mhs.web.id/public_html/">
+
+        Options FollowSymLinks
+
+        AllowOverride All
+
+        Order allow,deny
+
+        Allow from all
+
+    </Directory>
+
+</VirtualHost>
+
+
 ###################
 What is CodeIgniter
 ###################
