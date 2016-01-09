@@ -86,7 +86,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <p>Simple CodeIgniter Multisite:</p>
                 <code>1. Main Site ( <a href="http://scm.github.mhs.web.id/" target="_blank">http://scm.github.mhs.web.id</a> )</code>
                 <code>2. Site1 ( <a href="http://site1.scm.github.mhs.web.id/" target="_blank">http://site1.scm.github.mhs.web.id</a> )</code>
-                <code>3. Site2 ( <a href="http://site2.scm.github.mhs.web.id/" target="_blank">http://site1.scm.github.mhs.web.id</a> )</code>
+                <code>3. Site2 ( <a href="http://site2.scm.github.mhs.web.id/" target="_blank">http://site2.scm.github.mhs.web.id</a> )</code>
 
                 <hr>
                 
