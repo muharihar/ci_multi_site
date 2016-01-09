@@ -65,12 +65,12 @@ function _multisite_get_config($config) {
 
     $_config_file = MULTISITE_PATH . $_main_domain . '/' . $_site . '/config/' . $config . '.php';
 
-    if (!file_exists($_config_file)) {
+    if (!file_exists($_config_file) and ($config != 'config')) {
         $_config_file = MULTISITE_PATH . 'all/config/' . $config . '.php';
     }
     
     if (!file_exists($_config_file) and ($config == 'config')){
-        die ("Unkown domain/site: ".$_domain);
+        die ("Unknown domain/site: ".$_domain);
     }
 
     return $_config_file;

@@ -84,9 +84,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <p><p/>
                 
                 <p>Simple CodeIgniter Multisite:</p>
-                <code>1. Main Site ( <a href="http://scm.github.mhs.web.id/" target="_blank">http://scm.github.mhs.web.id</a> )</code>
-                <code>2. Site1 ( <a href="http://site1.scm.github.mhs.web.id/" target="_blank">http://site1.scm.github.mhs.web.id</a> )</code>
-                <code>3. Site2 ( <a href="http://site2.scm.github.mhs.web.id/" target="_blank">http://site2.scm.github.mhs.web.id</a> )</code>
+                <code><div style="text-align: left;">1.a. Main Site ( <a href="http://scm.github.mhs.web.id/" target="_blank">http://scm.github.mhs.web.id</a> )</div>
+                      <div style="text-align: right;">Main Site ( <a href="http://scm.omahijo.net/" target="_blank">http:/scm.omahijo.net/</a> ) 2.a.</div>
+                </code>
+                <code><div style="text-align: left;">1.b. Site1 ( <a href="http://site1.scm.github.mhs.web.id/" target="_blank">http://site1.scm.github.mhs.web.id</a> )</div>
+                      <div style="text-align: right;">Client1 Site ( <a href="http://client1.scm.omahijo.net/" target="_blank">http://client1.scm.omahijo.net/</a> ) 2.b.</div>
+                </code>
+                <code><div style="text-align: left;">1.c. Site2 ( <a href="http://site2.scm.github.mhs.web.id/" target="_blank">http://site2.scm.github.mhs.web.id</a> )</div>
+                      <div style="text-align: right;">Unknown Site ( <a href="http://unknown.scm.omahijo.net/" target="_blank">http://unknown.scm.omahijo.net/</a> ) 2.c.</div>
+                </code>
 
                 <hr>
                 

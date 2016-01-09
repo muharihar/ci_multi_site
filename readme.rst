@@ -10,6 +10,13 @@ Demo:
 - `Sub Site1: http://site1.scm.github.mhs.web.id <http://site1.scm.github.mhs.web.id/>`_
 - `Sub Site2: http://site2.scm.github.mhs.web.id <http://site2.scm.github.mhs.web.id/>`_
 
+Demo @ different Domain:
+
+- `Default Site: http://scm.omahijo.net <http://scm.omahijo.net/>`_
+- `Client 1 Site: http://client1.scm.omahijo.net <http://client1.scm.omahijo.net/>`_
+- `Unkwown Site (no configuration found): http://unkown.scm.omahijo.net <http://unkown.scm.omahijo.net/>`_
+
+
 Apache Configuration Sample:
 
 <VirtualHost *:80>
