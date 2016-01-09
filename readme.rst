@@ -10,6 +10,22 @@ Demo:
 - `Default Site1: http://site1.scm.github.mhs.web.id <http://site1.scm.github.mhs.web.id/>`_
 - `Default Site2: http://site2.scm.github.mhs.web.id <http://site2.scm.github.mhs.web.id/>`_
 
+Apache Configuration Sample:
+
+<VirtualHost *:80>
+        ServerAdmin webmaster@mhs.web.id
+        ServerName scm.github.mhs.web.id
+        ServerAlias *.scm.github.mhs.web.id
+
+        DocumentRoot "/var/www/html/scm.github.mhs.web.id/public_html"
+        <Directory "/var/www/html/scm.github.mhs.web.id/public_html/">
+                Options FollowSymLinks
+                AllowOverride All
+                Order allow,deny
+                Allow from all
+        </Directory>
+</VirtualHost>
+
 
 ###################
 What is CodeIgniter
