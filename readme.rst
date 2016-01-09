@@ -1,4 +1,16 @@
 ###################
+What is Simple CodeIgniter Multisite (SCM)
+###################
+
+SCM is a simple CodeIgniter Multisite.
+
+Demo:
+- `Default Site: http://scm.github.mhs.web.id<http://scm.github.mhs.web.id>`_
+- `Default Site1: http://site1.scm.github.mhs.web.id<http://scm.github.mhs.web.id>`_
+- `Default Site2: http://site1.scm.github.mhs.web.id<http://scm.github.mhs.web.id>`_
+
+
+###################
 What is CodeIgniter
 ###################
 

@@ -1,17 +1,17 @@
 {
-	"description": "The CodeIgniter framework",
-	"name": "codeigniter/framework",
+	"description": "The Simple CodeIgniter Multisite",
+	"name": "muharihar/ci_multi_site",
 	"type": "project",
-	"homepage": "http://codeigniter.com",
+	"homepage": "http://scm.github.mhs.web.id",
 	"license": "MIT",
 	"support": {
 		"forum": "http://forum.codeigniter.com/",
 		"wiki": "https://github.com/bcit-ci/CodeIgniter/wiki",
 		"irc": "irc://irc.freenode.net/codeigniter",
-		"source": "https://github.com/bcit-ci/CodeIgniter"
+		"source": "https://github.com/muharihar/ci_multi_site"
 	},
 	"require": {
-		"php": ">=5.2.4"
+		"php": ">=5.4.0"
 	},
 	"require-dev": {
 		"mikey179/vfsStream": "1.1.*"
