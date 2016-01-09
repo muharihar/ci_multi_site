@@ -13,17 +13,27 @@ Demo:
 Apache Configuration Sample:
 
 <VirtualHost *:80>
-        ServerAdmin webmaster@mhs.web.id
-        ServerName scm.github.mhs.web.id
-        ServerAlias *.scm.github.mhs.web.id
 
-        DocumentRoot "/var/www/html/scm.github.mhs.web.id/public_html"
-        <Directory "/var/www/html/scm.github.mhs.web.id/public_html/">
-                Options FollowSymLinks
-                AllowOverride All
-                Order allow,deny
-                Allow from all
-        </Directory>
+    ServerAdmin webmaster@mhs.web.id
+
+    ServerName scm.github.mhs.web.id
+
+    ServerAlias *.scm.github.mhs.web.id
+
+    DocumentRoot "/var/www/html/scm.github.mhs.web.id/public_html"
+
+    <Directory "/var/www/html/scm.github.mhs.web.id/public_html/">
+
+        Options FollowSymLinks
+
+        AllowOverride All
+
+        Order allow,deny
+
+        Allow from all
+
+    </Directory>
+
 </VirtualHost>
 
 
