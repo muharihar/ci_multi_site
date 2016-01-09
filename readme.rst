@@ -7,8 +7,8 @@ SCM is a simple CodeIgniter Multisite.
 Demo:
 
 - `Default Site: http://scm.github.mhs.web.id <http://scm.github.mhs.web.id/>`_
-- `Default Site1: http://site1.scm.github.mhs.web.id <http://site1.scm.github.mhs.web.id/>`_
-- `Default Site2: http://site2.scm.github.mhs.web.id <http://site2.scm.github.mhs.web.id/>`_
+- `Sub Site1: http://site1.scm.github.mhs.web.id <http://site1.scm.github.mhs.web.id/>`_
+- `Sub Site2: http://site2.scm.github.mhs.web.id <http://site2.scm.github.mhs.web.id/>`_
 
 Apache Configuration Sample:
 
