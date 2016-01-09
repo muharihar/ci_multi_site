@@ -12,7 +12,7 @@ Demo:
 
 Demo @ different Domain:
 
-- `Default Site: http://scm.omahijo.net <http://scm.omahijo.net/>`_
+- `Default Site: https://scm.omahijo.net <https://scm.omahijo.net/>`_
 - `Client 1 Site: http://client1.scm.omahijo.net <http://client1.scm.omahijo.net/>`_
 - `Unkwown Site (no configuration found): http://unknown.scm.omahijo.net <http://unknown.scm.omahijo.net/>`_
 
