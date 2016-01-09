@@ -75,7 +75,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <body>
 
 <div id="container">
-	<h1>Welcome to CodeIgniter Multisite!</h1>
+	<h1>Welcome to Simple CodeIgniter Multisite!</h1>
         <div id="header">
             <span style="font-size: 35px; color: #f9f9f9; line-height: 143px;"><?php echo strtoupper(MULTISITE_DOMAIN); ?></span>
         </div>
@@ -89,7 +89,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<p>The corresponding controller for this page is found at:</p>
 		<code>application/controllers/Welcome.php</code>
 
-		<p>If you are exploring CodeIgniter for the very first time, you should start by reading the <a href="user_guide/">User Guide</a>.</p>
+                <p>If you are exploring CodeIgniter for the very first time, you should start by reading the <a href="http://www.codeigniter.com/user_guide/" target="_blank">User Guide</a>.</p>
 	</div>
 
 	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></p>
