@@ -102,7 +102,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 
                 <p>Simple CodeIgniter Multisite:</p>
                 <code><div style="text-align: left;">1.a. Main Site ( <a href="http://scm.github.mhs.web.id/" target="_blank">http://scm.github.mhs.web.id</a> )</div>
-                      <div style="text-align: right;">Main Site ( <a href="http://scm.omahijo.net/" target="_blank">http:/scm.omahijo.net</a> ) 2.a.</div>
+                      <div style="text-align: right;">Main Site ( <a href="https://scm.omahijo.net/" target="_blank">https:/scm.omahijo.net</a> ) 2.a.</div>
                 </code>
                 <code><div style="text-align: left;">1.b. Site1 ( <a href="http://site1.scm.github.mhs.web.id/" target="_blank">http://site1.scm.github.mhs.web.id</a> )</div>
                       <div style="text-align: right;">Client1 Site ( <a href="http://client1.scm.omahijo.net/" target="_blank">http://client1.scm.omahijo.net</a> ) 2.b.</div>

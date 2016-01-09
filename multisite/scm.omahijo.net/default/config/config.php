@@ -31,7 +31,7 @@ if ( ! empty($_SERVER['HTTPS']))
 }
 else
 {
-        $config['base_url'] = 'http://'.$domain;
+        $config['base_url'] = 'https://'.$domain;
 }
 
 /*
