@@ -68,6 +68,74 @@ Apache Configuration Sample:
 
 </VirtualHost>
 
+********
+Install @ PC
+********
+
+Add Hostname (/etc/hosts):
+
+127.0.0.1   mhs.tut
+127.0.0.1   site1.mhs.tut
+127.0.0.1   site2.mhs.tut
+
+127.0.0.1   ci.mhs.tut
+127.0.0.1   site1.ci.mhs.tut
+127.0.0.1   site2.ci.mhs.tut
+
+Apache Configuration Sample:
+
+<VirtualHost *:80>
+
+    ServerAdmin webmaster@mhs.tut
+
+    ServerName mhs.tut
+
+    ServerAlias *.mhs.tut
+
+    DocumentRoot "/var/www/html/ci_multi_site/public_html"
+
+    <Directory "/var/www/html/ci_multi_site/public_html/">
+
+        Options FollowSymLinks
+
+        AllowOverride All
+
+        Order allow,deny
+
+        Allow from all
+
+    </Directory>
+
+</VirtualHost>
+
+
+<VirtualHost *:80>
+
+    ServerAdmin webmaster@ci.mhs.tut
+
+    ServerName ci.mhs.tut
+
+    ServerAlias *.ci.mhs.tut
+
+    DocumentRoot "/var/www/html/ci_multi_site/public_html"
+
+    <Directory "/var/www/html/ci_multi_site/public_html/">
+
+        Options FollowSymLinks
+
+        AllowOverride All
+
+        Order allow,deny
+
+        Allow from all
+
+    </Directory>
+
+</VirtualHost>
+
+
+
+
 
 ###################
 What is CodeIgniter
