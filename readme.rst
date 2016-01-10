@@ -75,12 +75,18 @@ Install @ PC
 Add Hostname (/etc/hosts):
 
 127.0.0.1   mhs.tut
+
 127.0.0.1   site1.mhs.tut
+
 127.0.0.1   site2.mhs.tut
 
+
 127.0.0.1   ci.mhs.tut
+
 127.0.0.1   site1.ci.mhs.tut
+
 127.0.0.1   site2.ci.mhs.tut
+
 
 Apache Configuration Sample:
 
