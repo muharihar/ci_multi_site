@@ -19,6 +19,7 @@ Demo @ different Domain:
 
 Apache Configuration Sample:
 
+```
 <VirtualHost *:80>
 
     ServerAdmin webmaster@mhs.web.id
@@ -42,8 +43,9 @@ Apache Configuration Sample:
     </Directory>
 
 </VirtualHost>
+```
 
-
+```
 <VirtualHost *:80>
 
     ServerAdmin webmaster@omahijo.net
@@ -67,6 +69,7 @@ Apache Configuration Sample:
     </Directory>
 
 </VirtualHost>
+```
 
 ********
 Install @ PC
@@ -74,6 +77,7 @@ Install @ PC
 
 Add Hostname (/etc/hosts):
 
+```
 127.0.0.1   mhs.tut
 
 127.0.0.1   site1.mhs.tut
@@ -86,10 +90,12 @@ Add Hostname (/etc/hosts):
 127.0.0.1   site1.ci.mhs.tut
 
 127.0.0.1   site2.ci.mhs.tut
+```
 
 
 Apache Configuration Sample:
 
+```
 <VirtualHost *:80>
 
     ServerAdmin webmaster@mhs.tut
@@ -113,8 +119,9 @@ Apache Configuration Sample:
     </Directory>
 
 </VirtualHost>
+```
 
-
+```
 <VirtualHost *:80>
 
     ServerAdmin webmaster@ci.mhs.tut
@@ -138,7 +145,7 @@ Apache Configuration Sample:
     </Directory>
 
 </VirtualHost>
-
+```
 
 
 
