@@ -19,7 +19,7 @@ Demo @ different Domain:
 
 Apache Configuration Sample:
 
-```
+```ruby
 <VirtualHost *:80>
 
     ServerAdmin webmaster@mhs.web.id
@@ -45,7 +45,8 @@ Apache Configuration Sample:
 </VirtualHost>
 ```
 
-```
+
+```ruby
 <VirtualHost *:80>
 
     ServerAdmin webmaster@omahijo.net
@@ -77,7 +78,8 @@ Install @ PC
 
 Add Hostname (/etc/hosts):
 
-```
+
+```ruby
 127.0.0.1   mhs.tut
 
 127.0.0.1   site1.mhs.tut
@@ -95,7 +97,8 @@ Add Hostname (/etc/hosts):
 
 Apache Configuration Sample:
 
-```
+
+```ruby
 <VirtualHost *:80>
 
     ServerAdmin webmaster@mhs.tut
@@ -121,13 +124,10 @@ Apache Configuration Sample:
 </VirtualHost>
 ```
 
-```
+```ruby
 <VirtualHost *:80>
-
     ServerAdmin webmaster@ci.mhs.tut
-
     ServerName ci.mhs.tut
-
     ServerAlias *.ci.mhs.tut
 
     DocumentRoot "/var/www/html/ci_multi_site/public_html"
