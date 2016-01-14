@@ -38,6 +38,14 @@
 
 define('MULTISITE','simple');
 
+// Path to the core folder
+$core_path = '../core';
+define('COREPATH', str_replace('\\', '/', $core_path).DIRECTORY_SEPARATOR);
+
+// Path to the hmvc folder
+$hmvc_path = COREPATH . '/hmvc';
+
+
 require_once ('multisite.php');
 
 if (!defined('MULTISITE_PATH')){
