@@ -3,12 +3,13 @@
 defined('MULTISITE') OR exit('No direct script access allowed');
 
 // online demo: 
-// - "scm" for scm.github.mhs.web.id
+// - "scm" for *.scm.github.mhs.web.id and *.scm.omahijo.net
+// - "ushe" for *ushe.omahijo.net
 // local demo: 
 // - "ci" for "*.ci.mhs.tut", 
 // - "mhs" for "*.mhs.tut"
 
-$_MULTISITE_PREFIX = array('scm','ci','mhs'); 
+$_MULTISITE_PREFIX = array('ushe','scm','ci','mhs'); 
 
 function _multisite_get_http_host() {
 

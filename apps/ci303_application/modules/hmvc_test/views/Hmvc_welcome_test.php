@@ -1,9 +1,15 @@
 <?php
-
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-echo "HMVC Test View";
+defined('BASEPATH') OR exit('No direct script access allowed');
+?><!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+        <title>HMVC Test View <?php echo strtoupper(MULTISITE_DOMAIN); ?>!</title>
+</head>
+<body>
+    <div>
+        <h1>"HMVC Test View" <?php echo strtoupper(MULTISITE_DOMAIN); ?></h1>
+        <p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></p>
+    </div>
+</body>
+</html>
