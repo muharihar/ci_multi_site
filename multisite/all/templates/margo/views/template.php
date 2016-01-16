@@ -160,7 +160,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </button>
             <!-- End Toggle Nav Link For Mobiles -->
             <a class="navbar-brand" href="<?php echo base_url();?>">
-              <img alt="" src="<?php echo base_url('sites/all/themes/margo/')?>/images/margo.png">
+              <?php 
+                $_site_logo = dirname(SELF).'/sites/'.MULTISITE_MAIN_DOMAIN.'/'.MULTISITE_SITE_DOMAIN.'/site-logo.png'; 
+                if (file_exists($_site_logo)) {
+                    $_site_logo = base_url('sites/'.MULTISITE_MAIN_DOMAIN.'/'.MULTISITE_SITE_DOMAIN.'/').'/site-logo.png';
+                } else {
+                    $_site_logo = base_url('sites/all/themes/margo/').'/images/margo.png';
+                }
+              ?>
+              <img alt="" src="<?php echo $_site_logo;?>">
             </a>
           </div>
           <div class="navbar-collapse collapse">
