@@ -1058,7 +1058,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <!-- End Team Member Section -->
 
 
-    <div id="parallax-one" class="parallax" style="background-image:url(images/parallax/bg-02.jpg);">
+    <div id="parallax-one" class="parallax" style="background-image:url(<?php echo base_url('sites/all/themes/margo/')?>/images/parallax/bg-02.jpg);">
       <div class="parallax-text-container-1">
         <div class="parallax-text-item">
           <div class="container">
