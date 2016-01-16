@@ -520,3 +520,13 @@ $config['rewrite_short_tags'] = FALSE;
 | Array:		array('10.0.1.200', '192.168.5.0/24')
 */
 $config['proxy_ips'] = '';
+
+//HMVC
+$config['modules_locations'] = array(
+    APPPATH.'modules/' => '../modules/',
+    MULTISITE_PATH.'all/modules/' => '../../../multisite/all/modules/',
+    MULTISITE_PATH.'all/templates/' => '../../../multisite/all/templates/',
+    MULTISITE_PATH.'all/libraries/' => '../../../multisite/all/libraries/',
+    //site *.ci.mhs.tut only
+    MULTISITE_PATH.'ci.mhs.tut/all_/modules/' => '../../../multisite/ci.mhs.tut/all_/modules/'
+);

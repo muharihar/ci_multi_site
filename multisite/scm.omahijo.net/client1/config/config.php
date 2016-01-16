@@ -525,6 +525,6 @@ $config['proxy_ips'] = '';
 $config['modules_locations'] = array(
     APPPATH.'modules/' => '../modules/',
     MULTISITE_PATH.'all/modules/' => '../../../multisite/all/modules/',
-    MULTISITE_PATH.'templates/' => '../../../templates/',
-    MULTISITE_PATH.'libraries/' => '../../../libraries/',
+    MULTISITE_PATH.'all/templates/' => '../../../multisite/all/templates/',
+    MULTISITE_PATH.'all/libraries/' => '../../../multisite/all/libraries/',
 );
