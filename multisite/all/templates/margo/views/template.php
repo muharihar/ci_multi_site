@@ -159,7 +159,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <i class="fa fa-bars"></i>
             </button>
             <!-- End Toggle Nav Link For Mobiles -->
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="<?php echo base_url();?>">
               <img alt="" src="<?php echo base_url('sites/all/themes/margo/')?>/images/margo.png">
             </a>
           </div>
@@ -177,89 +177,89 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <!-- Start Navigation List -->
             <ul class="nav navbar-nav navbar-right">
               <li>
-                <a class="active" href="index.html">Home</a>
+                <a class="active" href="<?php echo base_url();?>">Home</a>
                 <ul class="dropdown">
-                  <li><a class="active" href="index.html">Home Main Version</a>
+                  <li><a class="active" href="#">Home Main Version</a>
                   </li>
-                  <li><a href="index-01.html">Home Version 1</a>
+                  <li><a href="#>Home Version 1</a>
                   </li>
-                  <li><a href="index-02.html">Home Version 2</a>
+                  <li><a href="#">Home Version 2</a>
                   </li>
-                  <li><a href="index-03.html">Home Version 3</a>
+                  <li><a href="#">Home Version 3</a>
                   </li>
-                  <li><a href="index-04.html">Home Version 4</a>
+                  <li><a href="#">Home Version 4</a>
                   </li>
-                  <li><a href="index-05.html">Home Version 5</a>
+                  <li><a href="#">Home Version 5</a>
                   </li>
-                  <li><a href="index-06.html">Home Version 6</a>
+                  <li><a href="#">Home Version 6</a>
                   </li>
-                  <li><a href="index-07.html">Home Version 7</a>
+                  <li><a href="#">Home Version 7</a>
                   </li>
                 </ul>
               </li>
               <li>
-                <a href="about.html">Pages</a>
+                <a href="#">Pages</a>
                 <ul class="dropdown">
-                  <li><a href="about.html">About</a>
+                  <li><a href="#">About</a>
                   </li>
-                  <li><a href="services.html">Services</a>
+                  <li><a href="#">Services</a>
                   </li>
-                  <li><a href="right-sidebar.html">Right Sidebar</a>
+                  <li><a href="#">Right Sidebar</a>
                   </li>
-                  <li><a href="left-sidebar.html">Left Sidebar</a>
+                  <li><a href="#">Left Sidebar</a>
                   </li>
-                  <li><a href="404.html">404 Page</a>
+                  <li><a href="#">404 Page</a>
                   </li>
                 </ul>
               </li>
               <li>
                 <a href="#">Shortcodes</a>
                 <ul class="dropdown">
-                  <li><a href="tabs.html">Tabs</a>
+                  <li><a href="#">Tabs</a>
                   </li>
-                  <li><a href="buttons.html">Buttons</a>
+                  <li><a href="#">Buttons</a>
                   </li>
-                  <li><a href="action-box.html">Action Box</a>
+                  <li><a href="#">Action Box</a>
                   </li>
-                  <li><a href="testimonials.html">Testimonials</a>
+                  <li><a href="#">Testimonials</a>
                   </li>
-                  <li><a href="latest-posts.html">Latest Posts</a>
+                  <li><a href="#">Latest Posts</a>
                   </li>
-                  <li><a href="latest-projects.html">Latest Projects</a>
+                  <li><a href="#">Latest Projects</a>
                   </li>
-                  <li><a href="pricing.html">Pricing Tables</a>
+                  <li><a href="#">Pricing Tables</a>
                   </li>
-                  <li><a href="animated-graphs.html">Animated Graphs</a>
+                  <li><a href="#">Animated Graphs</a>
                   </li>
-                  <li><a href="accordion-toggles.html">Accordion & Toggles</a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a href="portfolio-3.html">Portfolio</a>
-                <ul class="dropdown">
-                  <li><a href="portfolio-2.html">2 Columns</a>
-                  </li>
-                  <li><a href="portfolio-3.html">3 Columns</a>
-                  </li>
-                  <li><a href="portfolio-4.html">4 Columns</a>
-                  </li>
-                  <li><a href="single-project.html">Single Project</a>
+                  <li><a href="#">Accordion & Toggles</a>
                   </li>
                 </ul>
               </li>
               <li>
-                <a href="blog.html">Blog</a>
+                <a href="#">Portfolio</a>
                 <ul class="dropdown">
-                  <li><a href="blog.html">Blog - right Sidebar</a>
+                  <li><a href="#">2 Columns</a>
                   </li>
-                  <li><a href="blog-left-sidebar.html">Blog - Left Sidebar</a>
+                  <li><a href="#">3 Columns</a>
                   </li>
-                  <li><a href="single-post.html">Blog Single Post</a>
+                  <li><a href="#">4 Columns</a>
+                  </li>
+                  <li><a href="#">Single Project</a>
                   </li>
                 </ul>
               </li>
-              <li><a href="contact.html">Contact</a>
+              <li>
+                <a href="#">Blog</a>
+                <ul class="dropdown">
+                  <li><a href="#">Blog - right Sidebar</a>
+                  </li>
+                  <li><a href="#">Blog - Left Sidebar</a>
+                  </li>
+                  <li><a href="#">Blog Single Post</a>
+                  </li>
+                </ul>
+              </li>
+              <li><a href="#">Contact</a>
               </li>
             </ul>
             <!-- End Navigation List -->
@@ -269,90 +269,90 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <!-- Mobile Menu Start -->
         <ul class="wpb-mobile-menu">
           <li>
-            <a class="active" href="index.html">Home</a>
+            <a class="active" href="#">Home</a>
             <ul class="dropdown">
-              <li><a class="active" href="index.html">Home Main Version</a>
+              <li><a class="active" href="#">Home Main Version</a>
               </li>
-              <li><a href="index-01.html">Home Version 1</a>
+              <li><a href="#">Home Version 1</a>
               </li>
-              <li><a href="index-02.html">Home Version 2</a>
+              <li><a href="#">Home Version 2</a>
               </li>
-              <li><a href="index-03.html">Home Version 3</a>
+              <li><a href="#">Home Version 3</a>
               </li>
-              <li><a href="index-04.html">Home Version 4</a>
+              <li><a href="#">Home Version 4</a>
               </li>
-              <li><a href="index-05.html">Home Version 5</a>
+              <li><a href="#">Home Version 5</a>
               </li>
-              <li><a href="index-06.html">Home Version 6</a>
+              <li><a href="#">Home Version 6</a>
               </li>
-              <li><a href="index-07.html">Home Version 7</a>
+              <li><a href="#">Home Version 7</a>
               </li>
             </ul>
           </li>
           <li>
-            <a href="about.html">Pages</a>
+            <a href="#">Pages</a>
             <ul class="dropdown">
-              <li><a href="about.html">About</a>
+              <li><a href="#">About</a>
               </li>
-              <li><a href="services.html">Services</a>
+              <li><a href="#">Services</a>
               </li>
-              <li><a href="right-sidebar.html">Right Sidebar</a>
+              <li><a href="#">Right Sidebar</a>
               </li>
-              <li><a href="left-sidebar.html">Left Sidebar</a>
+              <li><a href="#">Left Sidebar</a>
               </li>
-              <li><a href="404.html">404 Page</a>
+              <li><a href="#">404 Page</a>
               </li>
             </ul>
           </li>
           <li>
             <a href="#">Shortcodes</a>
             <ul class="dropdown">
-              <li><a href="tabs.html">Tabs</a>
+              <li><a href="#">Tabs</a>
               </li>
-              <li><a href="buttons.html">Buttons</a>
+              <li><a href="#">Buttons</a>
               </li>
-              <li><a href="action-box.html">Action Box</a>
+              <li><a href="#">Action Box</a>
               </li>
-              <li><a href="testimonials.html">Testimonials</a>
+              <li><a href="#">Testimonials</a>
               </li>
-              <li><a href="latest-posts.html">Latest Posts</a>
+              <li><a href="#">Latest Posts</a>
               </li>
-              <li><a href="latest-projects.html">Latest Projects</a>
+              <li><a href="#">Latest Projects</a>
               </li>
-              <li><a href="pricing.html">Pricing Tables</a>
+              <li><a href="#">Pricing Tables</a>
               </li>
-              <li><a href="animated-graphs.html">Animated Graphs</a>
+              <li><a href="#">Animated Graphs</a>
               </li>
-              <li><a href="accordion-toggles.html">Accordion & Toggles</a>
+              <li><a href="#">Accordion & Toggles</a>
               </li>
             </ul>
           </li>
           <li>
-            <a href="portfolio-3.html">Portfolio</a>
+            <a href="#">Portfolio</a>
             <ul class="dropdown">
-              <li><a href="portfolio-2.html">2 Columns</a>
+              <li><a href="#">2 Columns</a>
               </li>
-              <li><a href="portfolio-3.html">3 Columns</a>
+              <li><a href="#">3 Columns</a>
               </li>
-              <li><a href="portfolio-4.html">4 Columns</a>
+              <li><a href="#">4 Columns</a>
               </li>
-              <li><a href="single-project.html">Single Project</a>
+              <li><a href="#">Single Project</a>
               </li>
             </ul>
           </li>
           <li>
-            <a href="blog.html">Blog</a>
+            <a href="#">Blog</a>
             <ul class="dropdown">
-              <li><a href="blog.html">Blog - right Sidebar</a>
+              <li><a href="#">Blog - right Sidebar</a>
               </li>
-              <li><a href="blog-left-sidebar.html">Blog - Left Sidebar</a>
+              <li><a href="#">Blog - Left Sidebar</a>
               </li>
-              <li><a href="single-post.html">Blog Single Post</a>
+              <li><a href="#">Blog Single Post</a>
               </li>
             </ul>
           </li>
           <li>
-            <a href="contact.html">Contact</a>
+            <a href="#">Contact</a>
           </li>
         </ul>
         <!-- Mobile Menu End -->
