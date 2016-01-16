@@ -66,7 +66,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 </head>
 
-<body style="background-image: url('http://ci.mhs.tut:8888/sites/all/themes/margo/images/patterns/3.png');">
+<body style="background-image: url('<?php echo base_url('sites/all/themes/margo/')?>/images/patterns/3.png');">
 
   <!-- Full Body Container -->
   <div id="container" class="boxed-page">
