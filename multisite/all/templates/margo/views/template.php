@@ -181,7 +181,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <ul class="dropdown">
                   <li><a class="active" href="#">Home Main Version</a>
                   </li>
-                  <li><a href="#>Home Version 1</a>
+                  <li><a href="#">Home Version 1</a>
                   </li>
                   <li><a href="#">Home Version 2</a>
                   </li>
