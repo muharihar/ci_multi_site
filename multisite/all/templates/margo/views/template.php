@@ -377,7 +377,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <!-- Carousel inner -->
         <div class="carousel-inner">
           <div class="item active">
-            <img class="img-responsive" src="<?php echo base_url('sites/all/themes/margo/')?>/images/slider/bg1.jpg" alt="slider">
+            <img class="img-responsive" src="<?php echo base_url('sites/all/themes/margo/')?>/images/slider/bg1x.jpg" alt="slider">
             <div class="slider-content">
               <div class="col-md-12 text-center">
                 <h2 class="animated2">
