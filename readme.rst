@@ -19,9 +19,9 @@ Demo @ different Domain:
 Demo With "HTML Template":
 
 - `USHE Main Site: https://ushe.omahijo.net <https://ushe.omahijo.net/>`_
-- `CA USHE Sub Site: https://ca.ushe.omahijo.net <https://ca.ushe.omahijo.net/>`_
-- `MN USHE Sub Site: https://mn.ushe.omahijo.net <https://mn.ushe.omahijo.net/>`_
-- `NY USHE Sub Site: https://ny.ushe.omahijo.net <https://ny.ushe.omahijo.net/>`_
+- `CA USHE Sub Site: http://ca.ushe.omahijo.net <http://ca.ushe.omahijo.net/>`_
+- `MN USHE Sub Site: http://mn.ushe.omahijo.net <http://mn.ushe.omahijo.net/>`_
+- `NY USHE Sub Site: http://ny.ushe.omahijo.net <http://ny.ushe.omahijo.net/>`_
 
 
 Apache Configuration Sample:
