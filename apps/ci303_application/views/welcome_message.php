@@ -100,7 +100,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<div id="body">
                 <p><p/>
                 
-                <p>Simple CodeIgniter Multisite:</p>
+                <p><strong>Simple CodeIgniter Multisite:</strong></p>
                 <code><div style="text-align: left;">1.a. Main Site ( <a href="http://scm.github.mhs.web.id/" target="_blank">http://scm.github.mhs.web.id</a> )</div>
                       <div style="text-align: right;">Main Site ( <a href="https://scm.omahijo.net/" target="_blank">https:/scm.omahijo.net</a> ) 2.a.</div>
                 </code>
@@ -110,8 +110,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <code><div style="text-align: left;">1.c. Site2 ( <a href="http://site2.scm.github.mhs.web.id/" target="_blank">http://site2.scm.github.mhs.web.id</a> )</div>
                       <div style="text-align: right;">Unknown Site ( <a href="http://unknown.scm.omahijo.net/" target="_blank">http://unknown.scm.omahijo.net</a> ) 2.c.</div>
                 </code>
-
                 <hr>
+				
+				<p><strong>Sample with "html template":</strong></p>
+				<code>
+					<div style="text-align: left;">2.a. USHE Main Site ( <a href="http://ushe.omahijo.net/" target="_blank">http://ushe.omahijo.net</a> )</div>
+				</code>
+				<code>
+					<div style="text-align: left;">2.b. CA USHE Site ( <a href="http://ca.ushe.omahijo.net/" target="_blank">http://ca.ushe.omahijo.net</a> )</div>
+				</code>
+				<code>
+					<div style="text-align: left;">2.c. MN USHE Site ( <a href="http://mn.ushe.omahijo.net/" target="_blank">http://ca.ushe.omahijo.net</a> )</div>
+				</code>
+				<code>
+					<div style="text-align: left;">2.d. NY USHE Site ( <a href="http://ny.ushe.omahijo.net/" target="_blank">http://ny.ushe.omahijo.net</a> )</div>
+				</code>
+				<hr>
                 
 		<p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
 
