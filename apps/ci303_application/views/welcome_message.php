@@ -120,7 +120,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<div style="text-align: left;">2.b. CA USHE Site ( <a href="http://ca.ushe.omahijo.net/" target="_blank">http://ca.ushe.omahijo.net</a> )</div>
 				</code>
 				<code>
-					<div style="text-align: left;">2.c. MN USHE Site ( <a href="http://mn.ushe.omahijo.net/" target="_blank">http://ca.ushe.omahijo.net</a> )</div>
+					<div style="text-align: left;">2.c. MN USHE Site ( <a href="http://mn.ushe.omahijo.net/" target="_blank">http://mn.ushe.omahijo.net</a> )</div>
 				</code>
 				<code>
 					<div style="text-align: left;">2.d. NY USHE Site ( <a href="http://ny.ushe.omahijo.net/" target="_blank">http://ny.ushe.omahijo.net</a> )</div>
